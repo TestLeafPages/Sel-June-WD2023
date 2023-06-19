@@ -1,0 +1,48 @@
+Todays Agenda!!
+================
+   09:30-10:00-EdTech Introduction
+   10:00-10:30-Java and Automation Introduction
+   10:30-10:40-Break
+   10:40-11:10-Project,package,Class and sample Programs
+   11:10-11:40-Breakout+Break
+   11:40-12:20-Methods,Object
+   12:20-12:35-Breakout
+   12:35-12:45-Recap
+
+
+classroom 1:
+Create a maven project using dependencies given (if not done before)
+Create a new package by name : week1.day1 (lower case)
+Create a new class by name : HelloSelenium (starts with Upper case)
+Check main method and write a sysout statement 
+Save and run the code to confirm the value is printed
+
+Method:
+doing some Action
+
+addition
+land
+
+
+main
+public static void main(){
+
+}
+
+normal method 
+public void data(){
+
+}
+
+public -access modifier/access specifier
+data type,void -return type(it not return anything)
+data- methodname
+()-input args
+
+
+Classroom:
+a) Create a class by name: "Chrome" (with no main method) in same package
+b) Create a method by name: getName()
+c) Print a statement inside the method --> "This is google chrome"
+d) Call the method getName() from class:"Browser" using object reference(Chrome)
+e) Run Browser class and Confirm the printed in console
