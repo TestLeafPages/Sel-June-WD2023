@@ -1,0 +1,26 @@
+Todays Agenda!!
+================
+   09:15-09:30-Recap
+   09:30-10:20-Data Type
+   10:20-10:45-Breakout+Break
+   10:50-11:20-Control statements(If condition)
+   11:20-11:40-Breakout+Break
+   11:40-12:20-ForLoop
+   12:20-12:40-Breakout
+
+
+   classroom 2
+   if-else
+
+   int mark=360
+   if(mark>400)
+   else if(mark>320)
+   else
+
+
+   classroom 3
+   print only odd numbers
+   int num=30
+   use ForLoop
+   use if condition
+   and print numbers
