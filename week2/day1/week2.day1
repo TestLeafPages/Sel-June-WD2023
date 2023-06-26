@@ -1,0 +1,77 @@
+Todays Agenda:
+=============
+  09:30 - 10:00-> Select Class(dropdown)
+  10:00 - 10:25-> Classroom(15mins)+Break(10mins)
+  10:25 - 11:35-> Xpath(Basic Xpath)
+  11:35 - 12:05-> Classroom(20mins)+Break(10mins)
+  12:05 - 12:35-> Implicity wait & webdriver Methods
+  12:35 - 12:45-> Recap
+  
+
+  Xpath
+  ====================
+  Xpath-Xml path
+
+  when to Use?
+  if i cannot take locators id,name,classname ,linktext
+  id-number
+  name-dup
+  classname-dup& whitespace
+  link
+
+  Absolute-
+/html/body/div[2]/div[2]/div/form/p/input
+real time will not use .
+
+
+
+Relative Xpath
+=====================
+
+//tagname[@attributename='attributeValue']
+
+
+we have 5 types of xpaths
+
+1.Attribute based xpaths
+//tagname[@attributename='attributeValue']
+
+//input[@id='email']
+//input[@id='username']
+
+
+2.Text Based Xpath
+//tagname[text()='value']
+
+//a[text()='Leads']
+
+
+3.partial attribute xpath
+
+//input[contains(@id,'firstName')]
+
+//input[contains(@id,'f')]
+
+
+4.partial Text based xpath
+
+//a[contains(text(),'CRM')]
+
+
+5. index based or collection based xpath
+(//input[@class='inputLogin'])[2]
+indexs should not go beyond 5 
+eg (//input[@class='inputLogin'])[25]
+
+name
+
+5 add again 30
+
+overcome this we have advance xpath
+
+
+selenium wait
+==============
+Implicit wait
+
+
