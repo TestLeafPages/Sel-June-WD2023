@@ -1,0 +1,62 @@
+Today's Agenda:
+==============
+   1)9:30-10:20->TestNG Introduction
+   2)10:20-10:45->ClassRoom
+   3)10:45-11:15->Sequential Execution
+   4)11:15:11:40->Classroom+ Break
+   5)11:40-12:10->Parallel Execution
+   6)12:10-12:35->Classroom
+   
+
+
+   TestNG-
+
+   *Execution framework
+   TestNG-Test Next Generation
+
+   J-unit-java
+   N-unit-.Next
+
+
+   Limitation:
+   1. One by one(1200+ UI )
+   *someone need to present
+   *time 
+   *same data
+
+   TestNG-Sequential and Parallel
+
+   2.Hard coded data
+
+   TestNG-we run with different data
+
+
+   3.There is no reporting
+
+   TestNG-basic reporting,status of testcase
+   
+   4.There is no way to filter the testcase to be run
+
+   TestNG-Grouping 
+
+   5.There is no way to re-run the test on failure
+
+   TestNG-Re-try analzer
+
+selenium:
+
+   create lead
+
+   edit lead
+
+   delete lead
+
+   TestNG(mall)
+   Create,edit,delete-Sequential,Parallel
+
+
+   verbose- get error log inside console
+   default value=2
+
+xml.file
+   verbose="5"
