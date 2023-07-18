@@ -1,0 +1,55 @@
+Agenda for Today:
+=================
+  
+   09.30-10:15->Parameterization(static and dynamic)
+   10:15-10:45->Classroom+Break
+   10:45-11:30->Hooks Implementation
+   11:30-11:55->Classroom
+   11:55-12:25->tags
+   12.25-12:45->Classroom
+
+
+   Parameterization:
+
+   1. Identify the data in the feature file
+       -username,password
+   2. Surround the data with ''
+   3. Replace the data which is surrounded with '' as {string} in the StepDefintion
+   4. Pass input arguments to the method and replace the hardcoded data with the argum
+
+
+How to pass multiple data using ScenarioOutline:
+1. To pass multiple data for a single scenario the Ghekin keyword used is Scenario Outline
+2. In Scenario Outline identify the dynamic data and replace that with <>
+    ex: <companyname>
+3. Under Examples keyword create pipeline symbol and mention the column name
+   ex: |companyname|
+   Note: The nae should exactly match
+    -Pass the values in the second row of Examples
+    ex: |TestLeaf12|  (1st set of data)
+        |Qeagle34|    (2nd set of data)
+
+4.Go to the StepDefinition and replace <companyname> with (.*)$
+5.Pass Input arguments to the method and replace the hardcoded value withe the argument  
+
+
+
+Hooks 
+======
+
+@Before
+@After
+
+
+InvalidMethodException
+
+Step1
+Create -BaseClass
+Give driver as gobally with static keyword
+create Precondition & postcondition and give @beforemethod ,@aftermethod
+
+step2
+extends Base class to step-class and runner class
+
+Step3
+Command common line in feature file
